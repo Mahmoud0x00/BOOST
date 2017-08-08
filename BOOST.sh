@@ -18,7 +18,7 @@ if [[ -z $Targets ]]; then
   exit 0
 fi
 
-if [[ -d $Targets ]]; then
+if [[ -f $Targets ]]; then
 
   echo '[*] well the directory is exist'
 
